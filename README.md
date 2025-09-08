@@ -1,12 +1,12 @@
 # CS50: Introduction to Computer Science
 
-My personal solutions to [CS50](https://cs50.harvard.edu/x) problem sets and projects.  
-This repository is intended as a portfolio of my progress through the course.
+My personal solutions to [CS50](https://cs50.harvard.edu/x) problem sets and projects. This repository is intended as a portfolio of my progress through the course.
 
-Note: Please do not copy these solutions directly for your own submissions.  
+Note: Please do not copy these solutions directly for your own submissions. 
 This repo is for reference and personal use only.
 
 ## Structure
+
 ...
 
 ---
@@ -32,3 +32,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
