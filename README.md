@@ -1,6 +1,8 @@
 # CS50: Introduction to Computer Science
 
-My personal solutions to [CS50](https://cs50.harvard.edu/x) problem sets and projects. This repository is intended as a portfolio of my progress through the course.
+My personal solutions to [CS50](https://cs50.harvard.edu/x) problem sets and projects. 
+
+This repository is intended as a portfolio of my progress throughout the course.
 
 Note: Please do not copy these solutions directly for your own submissions. 
 This repo is for reference and personal use only.
