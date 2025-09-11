@@ -1,0 +1,38 @@
+# --- Object files ---
+*.o
+*.obj
+
+# --- Binaries / executables ---
+*.out
+*.exe
+*.app
+*.i*86
+*.x86_64
+*.hex
+hello   # example binary from your project
+
+# --- Libraries ---
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# --- Precompiled headers ---
+*.gch
+*.pch
+
+# --- Build system files ---
+*.d
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# --- Temporary / backup files ---
+*~
+*.swp
+*.tmp
