@@ -2,7 +2,7 @@
 
 Preprocessing. Compiling. Assembling. Linking. Debugging. Arrays. Strings. Command-Line Arguments. Cryptography.
 
-## Files in this repository
+## Files in this directory
 
 ...
 
