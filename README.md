@@ -22,7 +22,7 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 ### pset_2/
 
-- [caesar/caesar.c](pset_2/caesar/caesar.c) - implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
+- [caesar/caesar.c](pset_2/caesar/caesar.c) - implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher).
 - [readability/readability.c](pset_2/readability/readability.c) – calculates the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) to estimate the reading level of a given text.
 - [scrabble/scrabble.c](pset_2/scrabble/scrabble.c) - a simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), comparing two players' scores.
 
