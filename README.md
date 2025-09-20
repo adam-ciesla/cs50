@@ -12,12 +12,12 @@ Note: Please do not copy these solutions directly for your own submissions. For 
 
 ### pset_1/
 
-- `cash/cash.c` – an implementation of a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm)
-- `credit/credit.c` – an implementation of the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm)
-- `mario-less/mario.c` – a simple program that prints out a pyramid made out of hashes (#)
-- `mario-more/mario.c` – a program that prints out a pyramid made out of hashes (#), but a bit harder
-- `me/hello.c` – a *"hello, world"* program with name input
-- `world/hello.c` – a simple *"hello, world"* program
+- [cash/cash.c](pset_1/cash/cash.c) – an implementation of a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm)
+- [credit/credit.c](pset_1/credit/credit.c) – an implementation of the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm)
+- [mario-less/mario.c](pset_1/mario-less/mario.c) – a simple program that prints out a pyramid made out of hashes (#)
+- [mario-more/mario.c](pset_1/mario-more/mario.c) – a program that prints out a pyramid made out of hashes (#), but a bit harder
+- [me/hello.c](pset_1/me/hello.c) – a *"hello, world"* program with name input
+- [world/hello.c](pset_1/world/hello.c) – a simple *"hello, world"* program
 
 ### pset_2/
 
