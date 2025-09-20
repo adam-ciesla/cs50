@@ -4,12 +4,12 @@ C. Source Code. Machine Code. Compiler. Correctness, Design, Style. Visual Studi
 
 ## Files in this directory
 
-- `cash/cash.c` – an implementation of a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm)
-- `credit/credit.c` – an implementation of the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm)
-- `mario-less/mario.c` – a simple program that prints out a pyramid made out of hashes (#)
-- `mario-more/mario.c` – a program that prints out a pyramid made out of hashes (#), but a bit harder
-- `me/hello.c` – a *"hello, world"* program with name input
-- `world/hello.c` – a simple *"hello, world"* program
+- `cash/cash.c` – implements a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) to calculate the minimum number of coins needed for change.
+- `credit/credit.c` – aimplements the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
+- `mario-less/mario.c` – prints a pyramid of hashes (#).
+- `mario-more/mario.c` – prints a pyramid of hashes (#), slightly harder.
+- `me/hello.c` – a *"hello, world"* program with name input.
+- `world/hello.c` – a simple *"hello, world"* program.
 
 ## How to Run
 
