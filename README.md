@@ -1,29 +1,30 @@
+
 # CS50: Introduction to Computer Science
 
-My personal solutions to Harvard University's [CS50: Introduction to Computer Science](https://cs50.harvard.edu/x) problem sets and projects. This repository is intended as a portfolio of my progress throughout the course.
+This repository contains my personal solutions to Harvard University's [CS50: Introduction to Computer Science](https://cs50.harvard.edu/x) problem sets and projects. This repository is intended as a record of my progress throughout the course and as a portfolio of the skills I developed while learning computer science fundamentals.
 
-Note: Please do not copy these solutions directly for your own submissions. For reference and personal use only.
+**Note**: Please do not copy these solutions directly for your own submissions. They are shared for reference and personal use only.
 
 ## Structure
 
 ### pset_0/
 
-- `project.sb3` – a simple **"catch the apple"** game created in Scratch, inspired by the classic Polish cartoon ["Porwanie Baltazara Gąbki"](https://en.wikipedia.org/wiki/The_Abduction_of_Balthazar_Sponge_(TV_series))
+- [project.sb3](pset_0/project.sb3) – a simple **"catch the apple"** game created in Scratch, inspired by the classic Polish cartoon ["Porwanie Baltazara Gąbki"](https://en.wikipedia.org/wiki/The_Abduction_of_Balthazar_Sponge_(TV_series)).
 
 ### pset_1/
 
-- [cash/cash.c](pset_1/cash/cash.c) – an implementation of a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm)
-- [credit/credit.c](pset_1/credit/credit.c) – an implementation of the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm)
-- [mario-less/mario.c](pset_1/mario-less/mario.c) – a simple program that prints out a pyramid made out of hashes (#)
-- [mario-more/mario.c](pset_1/mario-more/mario.c) – a program that prints out a pyramid made out of hashes (#), but a bit harder
-- [me/hello.c](pset_1/me/hello.c) – a *"hello, world"* program with name input
-- [world/hello.c](pset_1/world/hello.c) – a simple *"hello, world"* program
+- [cash/cash.c](pset_1/cash/cash.c) – implements a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) to calculate the minimum number of coins needed for change.
+- [credit/credit.c](pset_1/credit/credit.c) – implements the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
+- [mario-less/mario.c](pset_1/mario-less/mario.c) – prints a pyramid of hashes (#).
+- [mario-more/mario.c](pset_1/mario-more/mario.c) – prints a pyramid of hashes (#), slightly harder.
+- [me/hello.c](pset_1/me/hello.c) – a *"hello, world"* program with name input.
+- [world/hello.c](pset_1/world/hello.c) – a simple *"hello, world"* program.
 
 ### pset_2/
 
-- `caesar/caesar.c` - an implementation of the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
-- `readability/readability.c` – a program calculating the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) for a given text
-- `scrabble/scrabble.c` - a simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), comparing two players' scores
+- [caesar/caesar.c](pset_2/caesar/caesar.c) - implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
+- [readability/readability.c](pset_2/readability/readability.c) – calculates the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) to estimate the reading level of a given text.
+- [scrabble/scrabble.c](pset_2/scrabble/scrabble.c) - a simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), comparing two players' scores.
 
 ### pset_3/
 
@@ -54,6 +55,20 @@ Note: Please do not copy these solutions directly for your own submissions. For 
 ...
 
 ---
+
+## Progress
+
+- [x] Week 0 - Scratch
+- [x] Week 1 - C
+- [x] Week 2 - Arrays
+- [ ] Week 3 - Algorithms
+- [ ] Week 4 - Memory
+- [ ] Week 5 - Data Structures
+- [ ] Week 6 - Python
+- [ ] Week 7 - SQL
+- [ ] Week 8 - HTML, CSS, JavaScript
+- [ ] Week 9 - Flask
+- [ ] Week 10 - The End (Final Project)
 
 ## License
 
