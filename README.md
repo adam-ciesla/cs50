@@ -1,13 +1,55 @@
 # CS50: Introduction to Computer Science
 
-My personal solutions to Harvard University's [CS50: Introduction to Computer Science](https://cs50.harvard.edu/x) problem sets and projects. 
+My personal solutions to Harvard University's [CS50: Introduction to Computer Science](https://cs50.harvard.edu/x) problem sets and projects. This repository is intended as a portfolio of my progress throughout the course.
 
-This repository is intended as a portfolio of my progress throughout the course.
-
-Note: Please do not copy these solutions directly for your own submissions. 
-This repo is for reference and personal use only.
+Note: Please do not copy these solutions directly for your own submissions. For reference and personal use only.
 
 ## Structure
+
+### pset_0/
+
+- `project.sb3` – a simple **"catch the apple"** game created in Scratch, inspired by the classic Polish cartoon ["Porwanie Baltazara Gąbki"](https://en.wikipedia.org/wiki/The_Abduction_of_Balthazar_Sponge_(TV_series))
+
+### pset_1/
+
+- `cash/cash.c` – an implementation of a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm)
+- `credit/credit.c` – an implementation of the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm)
+- `mario-less/mario.c` – a simple program that prints out a pyramid made out of hashes (#)
+- `mario-more/mario.c` – a program that prints out a pyramid made out of hashes (#), but a bit harder
+- `me/hello.c` – a *"hello, world"* program with name input
+- `world/hello.c` – a simple *"hello, world"* program
+
+### pset_2/
+
+- `caesar/caesar.c` - an implementation of the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
+- `readability/readability.c` – a program calculating the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) for a given text
+- `scrabble/scrabble.c` - a simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), comparing two players' scores
+
+### pset_3/
+
+...
+
+### pset_4/
+
+...
+
+### pset_5/
+
+...
+
+### pset_6/
+
+...
+
+### pset_7/
+
+...
+
+### pset_8/
+
+...
+
+### pset_9/
 
 ...
 
