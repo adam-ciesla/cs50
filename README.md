@@ -1,7 +1,7 @@
 
 # CS50: Introduction to Computer Science
 
-This repository contains my personal solutions to Harvard University's [CS50: Introduction to Computer Science](https://cs50.harvard.edu/x) problem sets and projects. This repository is intended as a record of my progress throughout the course and as a portfolio of the skills I developed while learning computer science fundamentals.
+This repository contains my personal solutions to Harvard University's [CS50: Introduction to Computer Science](https://cs50.harvard.edu/x) problem sets and projects. It is intended as a record of my progress throughout the course and as a portfolio of the skills I developed while learning computer science fundamentals.
 
 **Note**: Please do not copy these solutions directly for your own submissions. They are shared for reference and personal use only.
 
@@ -54,8 +54,6 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 ...
 
----
-
 ## Progress
 
 - [x] Week 0 - Scratch
@@ -69,6 +67,8 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 - [ ] Week 8 - HTML, CSS, JavaScript
 - [ ] Week 9 - Flask
 - [ ] Week 10 - The End (Final Project)
+
+---
 
 ## License
 

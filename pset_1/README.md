@@ -10,3 +10,13 @@ C. Source Code. Machine Code. Compiler. Correctness, Design, Style. Visual Studi
 - `mario-more/mario.c` – a program that prints out a pyramid made out of hashes (#), but a bit harder
 - `me/hello.c` – a *"hello, world"* program with name input
 - `world/hello.c` – a simple *"hello, world"* program
+
+## How to Run
+
+All programs in this set are written in **C** and require the `cs50.h` library. If you’re using the [CS50 IDE](https://cs50.dev/), everything is preinstalled.
+
+To compile a program, use `make` followed by the filename (without `.c`). 
+
+```bash
+make example
+./example

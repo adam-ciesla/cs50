@@ -7,3 +7,13 @@ Preprocessing. Compiling. Assembling. Linking. Debugging. Arrays. Strings. Comma
 - `caesar/caesar.c` - an implementation of the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 - `readability/readability.c` – a program calculating the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) for a given text
 - `scrabble/scrabble.c` - a simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), comparing two players' scores
+
+## How to Run
+
+All programs in this set are written in **C** and require the `cs50.h` library. If you’re using the [CS50 IDE](https://cs50.dev/), everything is preinstalled.
+
+To compile a program, use `make` followed by the filename (without `.c`).  
+
+```bash
+make example
+./example
