@@ -8,7 +8,7 @@ Preprocessing. Compiling. Assembling. Linking. Debugging. Arrays. Strings. Comma
 - `readability/readability.c` – calculates the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) to estimate the reading level of a given text.
 - `scrabble/scrabble.c` - a simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), comparing two players' scores.
 
-## How to Run
+## How to run
 
 All programs in this set are written in **C** and require the `cs50.h` library. If you’re using the [CS50 IDE](https://cs50.dev/), everything is preinstalled.
 

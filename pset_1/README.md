@@ -11,7 +11,7 @@ C. Source Code. Machine Code. Compiler. Correctness, Design, Style. Visual Studi
 - `me/hello.c` – a *"hello, world"* program with name input.
 - `world/hello.c` – a simple *"hello, world"* program.
 
-## How to Run
+## How to run
 
 All programs in this set are written in **C** and require the `cs50.h` library. If you’re using the [CS50 IDE](https://cs50.dev/), everything is preinstalled.
 

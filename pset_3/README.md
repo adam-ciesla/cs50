@@ -6,7 +6,7 @@ Searching: Linear Search, Binary Search. Sorting: Bubble Sort, Selection Sort, M
 
 ...
 
-## How to Run
+## How to run
 
 All programs in this set are written in **C** and require the `cs50.h` library. If you’re using the [CS50 IDE](https://cs50.dev/), everything is preinstalled.
 
