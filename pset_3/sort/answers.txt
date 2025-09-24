@@ -1,11 +1,11 @@
-sort1 uses: TODO
+sort1 uses: Bubble sort
 
-How do you know?: TODO
+How do you know?: By a process of elimination.
 
-sort2 uses: TODO
+sort2 uses: Merge sort
 
-How do you know?: TODO
+How do you know?: It is noticeably the fastest amongst the three (just 0.684s for random 50000.txt).
 
-sort3 uses: TODO
+sort3 uses: Selection sort
 
-How do you know?: TODO
+How do you know?: It takes the longest while running on sorted50000.txt, which is because of omega(n^2) running time.
