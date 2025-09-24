@@ -4,7 +4,7 @@ How do you know?: By a process of elimination.
 
 sort2 uses: Merge sort
 
-How do you know?: It is noticeably the fastest amongst the three (just 0.684s for random 50000.txt).
+How do you know?: It is noticeably the fastest amongst the three (just 0.684s for random50000.txt).
 
 sort3 uses: Selection sort
 
