@@ -4,12 +4,12 @@ C. Source Code. Machine Code. Compiler. Correctness, Design, Style. Visual Studi
 
 ## Files in this directory
 
-- `cash/cash.c` – implements a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) to calculate the minimum number of coins needed for change.
-- `credit/credit.c` – aimplements the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
-- `mario-less/mario.c` – prints a pyramid of hashes (#).
-- `mario-more/mario.c` – prints a pyramid of hashes (#), slightly harder.
-- `me/hello.c` – a *"hello, world"* program with name input.
-- `world/hello.c` – a simple *"hello, world"* program.
+- `cash/cash.c` – [Cash](https://cs50.harvard.edu/x/psets/1/cash/). Implements a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) to calculate the minimum number of coins needed for change.
+- `credit/credit.c` – [Credit](https://cs50.harvard.edu/x/psets/1/credit/). Implements the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
+- `mario-less/mario.c` – [Mario (less)](https://cs50.harvard.edu/x/psets/1/mario/less/). Prints a pyramid of hashes (#).
+- `mario-more/mario.c` – [Mario (more)](https://cs50.harvard.edu/x/psets/1/mario/more/). Prints a pyramid of hashes (#), slightly harder.
+- `me/hello.c` – [Hello, It's Me](https://cs50.harvard.edu/x/psets/1/me/). A *"hello, world"* program with name input.
+- `world/hello.c` – [Hello, World](https://cs50.harvard.edu/x/psets/1/world/). A simple *"hello, world"* program.
 
 ## How to run
 
