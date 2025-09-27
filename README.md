@@ -9,26 +9,28 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 ### pset_0/
 
-- [project.sb3](pset_0/project.sb3) – a simple **"catch the apple"** game created in Scratch, inspired by the classic Polish cartoon ["Porwanie Baltazara Gąbki"](https://en.wikipedia.org/wiki/The_Abduction_of_Balthazar_Sponge_(TV_series)).
+- [project.sb3](pset_0/project.sb3) – [Starting from Scratch](https://cs50.harvard.edu/x/psets/0/scratch/). A simple **"catch the apple"** game created in Scratch, inspired by the classic Polish cartoon ["Porwanie Baltazara Gąbki"](https://en.wikipedia.org/wiki/The_Abduction_of_Balthazar_Sponge_(TV_series)).
 
 ### pset_1/
 
-- [cash/cash.c](pset_1/cash/cash.c) – implements a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) to calculate the minimum number of coins needed for change.
-- [credit/credit.c](pset_1/credit/credit.c) – implements the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
-- [mario-less/mario.c](pset_1/mario-less/mario.c) – prints a pyramid of hashes (#).
-- [mario-more/mario.c](pset_1/mario-more/mario.c) – prints a pyramid of hashes (#), slightly harder.
-- [me/hello.c](pset_1/me/hello.c) – a *"hello, world"* program with name input.
-- [world/hello.c](pset_1/world/hello.c) – a simple *"hello, world"* program.
+- [cash/cash.c](pset_1/cash/cash.c) – [Cash](https://cs50.harvard.edu/x/psets/1/cash/). Implements a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) to calculate the minimum number of coins needed for change.
+- [credit/credit.c](pset_1/credit/credit.c) – [Credit](https://cs50.harvard.edu/x/psets/1/credit/). Implements the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
+- [mario-less/mario.c](pset_1/mario-less/mario.c) – [Mario (less)](https://cs50.harvard.edu/x/psets/1/mario/less/). Prints a pyramid of hashes (#).
+- [mario-more/mario.c](pset_1/mario-more/mario.c) – [Mario (more)](https://cs50.harvard.edu/x/psets/1/mario/more/). Prints a pyramid of hashes (#), slightly harder.
+- [me/hello.c](pset_1/me/hello.c) – [Hello, It's Me](https://cs50.harvard.edu/x/psets/1/me/). A *"hello, world"* program with name input.
+- [world/hello.c](pset_1/world/hello.c) – [Hello, World](https://cs50.harvard.edu/x/psets/1/world/). A simple *"hello, world"* program.
 
 ### pset_2/
 
-- [caesar/caesar.c](pset_2/caesar/caesar.c) - implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher).
-- [readability/readability.c](pset_2/readability/readability.c) – calculates the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) to estimate the reading level of a given text.
-- [scrabble/scrabble.c](pset_2/scrabble/scrabble.c) - a simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), comparing two players' scores.
+- [caesar/caesar.c](pset_2/caesar/caesar.c) - [Caesar](https://cs50.harvard.edu/x/psets/2/caesar/). Implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher).
+- [readability/readability.c](pset_2/readability/readability.c) – [Readability](https://cs50.harvard.edu/x/psets/2/readability/). Calculates the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) to estimate the reading level of a given text.
+- [scrabble/scrabble.c](pset_2/scrabble/scrabble.c) - [Scrabble](https://cs50.harvard.edu/x/psets/2/scrabble/). A simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), comparing two players' scores.
 
 ### pset_3/
 
-...
+- [plurality/plurality.c](pset_3/plurality/plurality.c) - [Plurality](https://cs50.harvard.edu/x/psets/3/plurality/). A program that runs a [plurality election](https://en.wikipedia.org/wiki/Plurality_voting).
+- [runoff/runoff.c](pset_3/runoff/runoff.c) – [Runoff](https://cs50.harvard.edu/x/psets/3/runoff/). A program that runs a [runoff election](https://en.wikipedia.org/wiki/Instant-runoff_voting).
+- [sort/](pset_3/sort) - [Sort](https://cs50.harvard.edu/x/psets/3/sort/). A problem where you need to decide which sorting algorithm is which based on how fast they compile.
 
 ### pset_4/
 
@@ -59,7 +61,7 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 - [x] Week 0 - Scratch
 - [x] Week 1 - C
 - [x] Week 2 - Arrays
-- [ ] Week 3 - Algorithms
+- [x] Week 3 - Algorithms
 - [ ] Week 4 - Memory
 - [ ] Week 5 - Data Structures
 - [ ] Week 6 - Python

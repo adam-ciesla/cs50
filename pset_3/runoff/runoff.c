@@ -1,4 +1,5 @@
 #include <cs50.h>
+#include <math.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -141,14 +142,34 @@ bool vote(int voter, int rank, string name)
 // Tabulate votes for non-eliminated candidates
 void tabulate(void)
 {
-    // TODO
+    for (int i = 0; i < voter_count; i++) // Iterating through voters
+    {
+        for (int j = 0; j < candidate_count; j++) // Iterating through their votes
+        {
+            int preference = preferences[i][j]; // Candidate the voter chose
+            if (!candidates[preference].eliminated)
+            {
+                candidates[preference].votes += 1;
+                break;
+            }
+        }
+    }
     return;
 }
 
 // Print the winner of the election, if there is one
 bool print_winner(void)
 {
-    // TODO
+    int total_votes = 0;
+
+    for (int i = 0; i < candidate_count; i++)
+    {
+        if (candidates[i].votes > voter_count / 2) // większość > 50%
+        {
+            printf("%s\n", candidates[i].name);
+            return true;
+        }
+    }
     return false;
 }
 
@@ -188,9 +209,12 @@ bool is_tie(int min)
 // Eliminate the candidate (or candidates) in last place
 void eliminate(int min)
 {
-    for (int i = 0, n = candidate_count; i < n; i++)
+    for (int i = 0; i < candidate_count; i++)
     {
-
+        if (candidates[i].eliminated == false && candidates[i].votes == min)
+        {
+            candidates[i].eliminated = true;
+        }
     }
     return;
 }
