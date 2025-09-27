@@ -4,8 +4,8 @@ Searching: Linear Search, Binary Search. Sorting: Bubble Sort, Selection Sort, M
 
 ## Files in this directory
 
-- `plurality/plurality.c` – [Plurality](https://cs50.harvard.edu/x/psets/3/plurality/). A program that runs a [plurality election](https://en.wikipedia.org/wiki/Plurality_voting).
-- `runoff/runoff.c` – [Runoff](https://cs50.harvard.edu/x/psets/3/runoff/). A program that runs a [runoff election](https://en.wikipedia.org/wiki/Instant-runoff_voting).
+- `plurality/plurality.c` – [Plurality](https://cs50.harvard.edu/x/psets/3/plurality/). Runs a [plurality election](https://en.wikipedia.org/wiki/Plurality_voting).
+- `runoff/runoff.c` – [Runoff](https://cs50.harvard.edu/x/psets/3/runoff/). Runs a [runoff election](https://en.wikipedia.org/wiki/Instant-runoff_voting).
 - `sort/` - [Sort](https://cs50.harvard.edu/x/psets/3/sort/). A problem where you need to decide which sorting algorithm is which based on how fast they compile.
 
 ## How to run

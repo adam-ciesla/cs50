@@ -22,15 +22,15 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 ### pset_2/
 
-- [caesar/caesar.c](pset_2/caesar/caesar.c) - [Caesar](https://cs50.harvard.edu/x/psets/2/caesar/). Implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher).
+- [caesar/caesar.c](pset_2/caesar/caesar.c) – [Caesar](https://cs50.harvard.edu/x/psets/2/caesar/). Implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher).
 - [readability/readability.c](pset_2/readability/readability.c) – [Readability](https://cs50.harvard.edu/x/psets/2/readability/). Calculates the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) to estimate the reading level of a given text.
-- [scrabble/scrabble.c](pset_2/scrabble/scrabble.c) - [Scrabble](https://cs50.harvard.edu/x/psets/2/scrabble/). A simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), comparing two players' scores.
+- [scrabble/scrabble.c](pset_2/scrabble/scrabble.c) – [Scrabble](https://cs50.harvard.edu/x/psets/2/scrabble/). A simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), comparing two players' scores.
 
 ### pset_3/
 
-- [plurality/plurality.c](pset_3/plurality/plurality.c) - [Plurality](https://cs50.harvard.edu/x/psets/3/plurality/). A program that runs a [plurality election](https://en.wikipedia.org/wiki/Plurality_voting).
-- [runoff/runoff.c](pset_3/runoff/runoff.c) – [Runoff](https://cs50.harvard.edu/x/psets/3/runoff/). A program that runs a [runoff election](https://en.wikipedia.org/wiki/Instant-runoff_voting).
-- [sort/](pset_3/sort) - [Sort](https://cs50.harvard.edu/x/psets/3/sort/). A problem where you need to decide which sorting algorithm is which based on how fast they compile.
+- [plurality/plurality.c](pset_3/plurality/plurality.c) – [Plurality](https://cs50.harvard.edu/x/psets/3/plurality/). Runs a [plurality election](https://en.wikipedia.org/wiki/Plurality_voting).
+- [runoff/runoff.c](pset_3/runoff/runoff.c) – [Runoff](https://cs50.harvard.edu/x/psets/3/runoff/). Runs a [runoff election](https://en.wikipedia.org/wiki/Instant-runoff_voting).
+- [sort/](pset_3/sort) – [Sort](https://cs50.harvard.edu/x/psets/3/sort/). A problem where you need to decide which sorting algorithm is which based on how fast they compile.
 
 ### pset_4/
 
