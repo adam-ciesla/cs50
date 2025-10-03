@@ -8,7 +8,7 @@ Abstract Data Types. Queues, Stacks. Linked Lists. Trees, Binary Search Trees. H
 
 ## How to run
 
-All programs in this set are written in **C** and require the `cs50.h` library. If you’re using the [CS50 IDE](https://cs50.dev/), everything is preinstalled.
+All programs in this set are written in **C**.
 
 To compile a program, use `make` followed by the filename (without `.c`). 
 
