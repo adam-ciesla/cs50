@@ -1,7 +1,7 @@
 
 # CS50: Introduction to Computer Science
 
-This repository contains my personal solutions to Harvard University's [CS50: Introduction to Computer Science](https://cs50.harvard.edu/x) problem sets and projects. It is intended as a record of my progress throughout the course and as a portfolio of the skills I developed while learning computer science fundamentals.
+This repository contains my personal solutions to Harvard University's [CS50: Introduction to Computer Science](https://cs50.harvard.edu/x) 2025 problem sets and projects. It is intended as a record of my progress throughout the course and as a portfolio of the skills I developed while learning computer science fundamentals.
 
 **Note**: Please do not copy these solutions directly for your own submissions. They are shared for reference and personal use only.
 
