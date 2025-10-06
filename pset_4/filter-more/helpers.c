@@ -1,5 +1,6 @@
 #include "helpers.h"
 #include <math.h>
+#include <stdio.h>
 
 // Convert image to grayscale
 void grayscale(int height, int width, RGBTRIPLE image[height][width])
@@ -59,7 +60,7 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
     for (int i = 0; i < height; i++)
     {
         // Iterate through each pixel in that row
-        for (int j = 0; j < height; j++)
+        for (int j = 0; j < width; j++)
         {
             float redSum = 0.0, greenSum = 0.0,
                   blueSum = 0.0; // Sum of all RGB values of surrounding pixels
@@ -96,5 +97,77 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
 // Detect edges
 void edges(int height, int width, RGBTRIPLE image[height][width])
 {
-    return;
+    // Create a copy of the original image
+    RGBTRIPLE copy[height][width];
+    for (int i = 0; i < height; i++)
+    {
+        for (int j = 0; j < width; j++)
+        {
+            copy[i][j] = image[i][j];
+        }
+    }
+
+    // Create Gx and Gy convolutional matrices
+    int Gx[3][3] = {
+        {-1, 0, 1},
+        {-2, 0, 2},
+        {-1, 0, 1}
+    }; 
+
+    int Gy[3][3] = {
+        {-1, -2, -1},
+        {0, 0, 0},
+        {1, 2, 1}
+    };
+
+    // Iterate through each pixel
+    for (int i = 0; i < height; i++)
+    {
+        for (int j = 0; j < width; j++)
+        {
+            int gxRed = 0, gyRed = 0;
+            int gxGreen = 0, gyGreen = 0;
+            int gxBlue = 0, gyBlue = 0;
+
+            // Iterate over the (3x3) neighbourhood of the pixel
+            for (int di = -1; di <= 1; di++)
+            {
+                for (int dj = -1; dj <= 1; dj++)
+                {
+                    int ni = i + di;
+                    int nj = j + dj;
+
+                    // Checking if we haven't reached outside the bitmap
+                    if (ni >= 0 && ni < height && nj >= 0 && nj < width)
+                    {
+                        
+                    }
+
+                }
+            }
+
+            int redMagnitude;
+            int blueMagnitude;
+            int greenMagnitude;
+
+            // Check if any of the calculated values exceeds the maximum of 255
+            if (redMagnitude > 255)
+            {
+                redMagnitude = 255;
+            }
+            if (greenMagnitude > 255)
+            {
+                greenMagnitude = 255;
+            }
+            if (blueMagnitude > 255)
+            {
+                blueMagnitude = 255;
+            }
+
+            // Set colour values
+            image[i][j].rgbtRed;
+            image[i][j].rgbtGreen;
+            image[i][j].rgbrBlue;
+        }
+    }
 }

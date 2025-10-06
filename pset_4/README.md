@@ -7,7 +7,7 @@ Pointers. Segmentation Faults. Dynamic Memory Allocation. Stack. Heap. Buffer Ov
 - `filter-less/` – [Filter (less comfortable)](https://cs50.harvard.edu/x/psets/4/filter/less/).
 - `filter-more/` – [Filter (more comfortable)](https://cs50.harvard.edu/x/psets/4/filter/more/).
 - `recover/recover.c` – [Recover](https://cs50.harvard.edu/x/psets/4/recover/).
-- `volume/volume.c` - [Volune](https://cs50.harvard.edu/x/psets/4/volume/).
+- `volume/volume.c` - [Volume](https://cs50.harvard.edu/x/psets/4/volume/).
 
 ## How to run
 
