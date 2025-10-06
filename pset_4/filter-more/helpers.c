@@ -1,11 +1,10 @@
 #include "helpers.h"
 #include <math.h>
-#include <stdio.h>
 
 // Convert image to grayscale
 void grayscale(int height, int width, RGBTRIPLE image[height][width])
 {
-     // Iterate through each row of the image
+    // Iterate through each row of the image
     for (int i = 0; i < height; i++)
     {
         // Iterate through each pixel in that row
@@ -109,14 +108,14 @@ void edges(int height, int width, RGBTRIPLE image[height][width])
 
     // Create Gx and Gy convolutional matrices
     int Gx[3][3] = {
-        {-1, 0, 1},
-        {-2, 0, 2},
+        {-1, 0, 1}, 
+        {-2, 0, 2}, 
         {-1, 0, 1}
-    }; 
+    };
 
     int Gy[3][3] = {
-        {-1, -2, -1},
-        {0, 0, 0},
+        {-1, -2, -1}, 
+        {0, 0, 0}, 
         {1, 2, 1}
     };
 
@@ -140,15 +139,37 @@ void edges(int height, int width, RGBTRIPLE image[height][width])
                     // Checking if we haven't reached outside the bitmap
                     if (ni >= 0 && ni < height && nj >= 0 && nj < width)
                     {
-                        
-                    }
+                        // Changing di to matrix_i to correspond to index of a Gx/Gy array
+                        int matrix_i = di + 1;
+                        int matrix_j = dj + 1;
 
+                        // Get the Gx/Gy factor for this neighbour
+                        int gxFactor = Gx[matrix_i][matrix_j];
+                        int gyFactor = Gy[matrix_i][matrix_j];
+
+                        // Get the neighbour pixel from the original (copy)
+                        RGBTRIPLE p = copy[ni][nj];
+
+                        // Multiple the neighbour value by the gx/gyFactor and add it to the sum
+                        gxRed += gxFactor * p.rgbtRed;
+                        gyRed += gyFactor * p.rgbtRed;
+
+                        gxGreen += gxFactor * p.rgbtGreen;
+                        gyGreen += gyFactor * p.rgbtGreen;
+
+                        gxBlue += gxFactor * p.rgbtBlue;
+                        gyBlue += gyFactor * p.rgbtBlue;
+                    }
                 }
             }
 
-            int redMagnitude;
-            int blueMagnitude;
-            int greenMagnitude;
+            // Calculate the strength of the edge for each color channel
+            // Using the formula: sqrt(Gx^2 + Gy^2)
+            int redMagnitude = (int) round(sqrt((double) gxRed * gxRed + (double) gyRed * gyRed));
+            int greenMagnitude =
+                (int) round(sqrt((double) gxGreen * gxGreen + (double) gyGreen * gyGreen));
+            int blueMagnitude =
+                (int) round(sqrt((double) gxBlue * gxBlue + (double) gyBlue * gyBlue));
 
             // Check if any of the calculated values exceeds the maximum of 255
             if (redMagnitude > 255)
@@ -165,9 +186,9 @@ void edges(int height, int width, RGBTRIPLE image[height][width])
             }
 
             // Set colour values
-            image[i][j].rgbtRed;
-            image[i][j].rgbtGreen;
-            image[i][j].rgbrBlue;
+            image[i][j].rgbtRed = redMagnitude;
+            image[i][j].rgbtGreen = greenMagnitude;
+            image[i][j].rgbtBlue = blueMagnitude;
         }
     }
 }
