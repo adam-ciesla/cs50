@@ -7,11 +7,11 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 ## Structure
 
-### pset_0/
+### pset_0/ (Week 0 – Scratch)
 
 - [project.sb3](pset_0/project.sb3) – [Starting from Scratch](https://cs50.harvard.edu/x/psets/0/scratch/). A simple **"catch the apple"** game created in Scratch, inspired by the classic Polish cartoon ["Porwanie Baltazara Gąbki"](https://en.wikipedia.org/wiki/The_Abduction_of_Balthazar_Sponge_(TV_series)).
 
-### pset_1/
+### pset_1/ (Week 1 – C)
 
 - [cash/cash.c](pset_1/cash/cash.c) – [Cash](https://cs50.harvard.edu/x/psets/1/cash/). Implements a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) to calculate the minimum number of coins needed for change.
 - [credit/credit.c](pset_1/credit/credit.c) – [Credit](https://cs50.harvard.edu/x/psets/1/credit/). Implements the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
@@ -20,41 +20,46 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 - [me/hello.c](pset_1/me/hello.c) – [Hello, It's Me](https://cs50.harvard.edu/x/psets/1/me/). A *"hello, world"* program with name input.
 - [world/hello.c](pset_1/world/hello.c) – [Hello, World](https://cs50.harvard.edu/x/psets/1/world/). A simple *"hello, world"* program.
 
-### pset_2/
+### pset_2/ (Week 2 – Arrays)
 
 - [caesar/caesar.c](pset_2/caesar/caesar.c) – [Caesar](https://cs50.harvard.edu/x/psets/2/caesar/). Implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher).
 - [readability/readability.c](pset_2/readability/readability.c) – [Readability](https://cs50.harvard.edu/x/psets/2/readability/). Calculates the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) to estimate the reading level of a given text.
 - [scrabble/scrabble.c](pset_2/scrabble/scrabble.c) – [Scrabble](https://cs50.harvard.edu/x/psets/2/scrabble/). A simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), comparing two players' scores.
 
-### pset_3/
+### pset_3/ (Week 3 – Algoritms)
 
 - [plurality/plurality.c](pset_3/plurality/plurality.c) – [Plurality](https://cs50.harvard.edu/x/psets/3/plurality/). Runs a [plurality election](https://en.wikipedia.org/wiki/Plurality_voting).
 - [runoff/runoff.c](pset_3/runoff/runoff.c) – [Runoff](https://cs50.harvard.edu/x/psets/3/runoff/). Runs a [runoff election](https://en.wikipedia.org/wiki/Instant-runoff_voting).
 - [sort/](pset_3/sort) – [Sort](https://cs50.harvard.edu/x/psets/3/sort/). A problem where you need to decide which sorting algorithm is which based on how fast they compile.
 
-### pset_4/
+### pset_4/ (Week 4 – Memory)
+
+- [filter-less/](pset_4/filter-less/) – [Filter (less comfortable)](https://cs50.harvard.edu/x/psets/4/filter/less/). A command-line program to apply filters to images such as grayscale, sepia, reflect and blur.
+- [filter-more/](pset_4/filter-more/) – [Filter (more comfortable)](https://cs50.harvard.edu/x/psets/4/filter/more/). Same as the "less" version with the addition of an edge detection filter using the [Sobel operator](https://en.wikipedia.org/wiki/Sobel_operator).
+- [recover/recover.c](pset_4/recover/recover.c) – [Recover](https://cs50.harvard.edu/x/psets/4/recover/). A program that restores JPEG images from a [RAW image file](https://en.wikipedia.org/wiki/Raw_image_format) from a memory card.
+- [volume/volume.c](pset_4/volume/volume.c) - [Volume](https://cs50.harvard.edu/x/psets/4/volume/). A program that modifies the volume of a [WAV file](https://docs.fileformat.com/audio/wav/).
+
+### pset_5/ (Week 5 – Data Structures)
 
 ...
 
-### pset_5/
+### pset_6/ (Week 6 – Python)
 
 ...
 
-### pset_6/
+### pset_7/ (Week 7 – SQL)
 
 ...
 
-### pset_7/
+### pset_8/ (Week 8 – HTML, CSS, JavaScript)
 
 ...
 
-### pset_8/
+### pset_9/ (Week 9 – Flask)
 
 ...
 
-### pset_9/
-
-...
+### (Week 10 – The End)
 
 ## Progress
 
@@ -62,7 +67,7 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 - [x] Week 1 - C
 - [x] Week 2 - Arrays
 - [x] Week 3 - Algorithms
-- [ ] Week 4 - Memory
+- [x] Week 4 - Memory
 - [ ] Week 5 - Data Structures
 - [ ] Week 6 - Python
 - [ ] Week 7 - SQL
