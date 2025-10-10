@@ -23,22 +23,22 @@ void greedy_algorithm(int c)
         if (c >= 25)
         {
             c -= 25;
-            times += 1;
+            times++;
         }
         else if (c >= 10)
         {
             c -= 10;
-            times += 1;
+            times++;
         }
         else if (c >= 5)
         {
             c -= 5;
-            times += 1;
+            times++;
         }
         else
         {
             c -= 1;
-            times += 1;
+            times++;
         }
     }
 
