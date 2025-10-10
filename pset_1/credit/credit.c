@@ -5,7 +5,7 @@
 int length(long n);
 int first_1_digit(long n);
 int first_2_digits(long n);
-void lunds_algorithm(long credit);
+void luhn_algorithm(long credit);
 
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 
     credit = get_long("Number: ");
 
-    lunds_algorithm(credit);
+    luhn_algorithm(credit);
 }
 
 int length(long n) // Checking the length of a long
@@ -48,7 +48,7 @@ int first_2_digits(long n)
     return (int) n;
 }
 
-void lunds_algorithm(long credit)
+void luhn_algorithm(long credit)
 {
     int len = length(credit);
 
