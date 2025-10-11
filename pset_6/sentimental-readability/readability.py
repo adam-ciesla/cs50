@@ -1,3 +1,8 @@
+def main():
+    text = input("Text: ")
+    print_grade_level(text)
+
+
 def coleman_liau_index(L: float, S: float) -> int:
     return round(0.0588 * L - 0.296 * S - 15.8)
 
@@ -38,11 +43,6 @@ def print_grade_level(text: str) -> None:
         print(f"Grade {index}")
     else:
         print("Grade 16+")
-
-
-def main():
-    text = input("Text: ")
-    print_grade_level(text)
 
 
 if __name__ == "__main__":
