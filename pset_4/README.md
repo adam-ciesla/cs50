@@ -11,10 +11,26 @@ Pointers. Segmentation Faults. Dynamic Memory Allocation. Stack. Heap. Buffer Ov
 
 ## How to run
 
-All programs in this set are written in **C**.
+All programs in this set are written in **C**. You will need a compiler (e.g., `clang` or `gcc`) and the `make` tool to run them.
+If you're using the [CS50 IDE](cs50.dev), everything is preinstalled.
 
-To compile a program, use `make` followed by the filename (without `.c`). 
+1.  **Compile**: To compile a program, use the `make` command followed by the filename without the `.c` extension. This command will create an executable file with the same name.
+
+    ```bash
+    make <program_name>
+    ```
+
+2.  **Execute**: To run the compiled program, type `./` followed by its name.
+
+    ```bash
+    ./<program_name>
+    ```
+
+**Example:**
 
 ```bash
-make example
-./example
+# Compiles the hello.c file into an executable file named hello
+make hello
+
+# Runs the program
+./hello
