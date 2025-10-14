@@ -5,8 +5,8 @@ from sys import exit, argv
 def main():
 
     # Check for command-line usage
-    if len(argv) != 3 or '.csv' not in argv[1] or '.txt' not in argv[2]:
-        print("Usage: python dna.py foo.csv foo.txt")
+    if len(argv) != 3 or not argv[1].endswith('.csv') or not argv[2].endswith('.txt'):
+        print("Usage: python dna.py data.csv sequence.txt")
         exit(1)
 
     # Read database file into a variable
