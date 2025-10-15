@@ -4,19 +4,21 @@ Python: Functions, Arguments, Return Values; Variables; Boolean Expressions, Con
 
 ## Files in this directory
 
-- `dna/dna.py` – [DNA](https://cs50.harvard.edu/x/psets/6/dna/). Identifies to which person specified in a .csv file a DNA sequence belongs.
+- **[DNA](https://cs50.harvard.edu/x/psets/6/dna/)** – Identifies a person based on a DNA sequence by matching Short Tandem Repeats (STRs) against a database.
+  - File: [`dna/dna.py`](pset_6/dna/dna.py)
 
-- `sentimental-cash/cash.py` – [Cash](https://cs50.harvard.edu/x/psets/6/cash/). A Python version of Cash from pset_1.
+- **Sentimental series** – Python implementations of earlier problems from the course:
+  - **[Cash](https://cs50.harvard.edu/x/psets/6/cash/)**: [`sentimental-cash/cash.py`](pset_6/sentimental-cash/cash.py)
 
-- `sentimental-credit/credit.py` – [Credit](https://cs50.harvard.edu/x/psets/6/credit/). A Python version of Credit from pset_1.
+  - **[Credit](https://cs50.harvard.edu/x/psets/6/credit/)**: [`sentimental-credit/credit.py`](pset_6/sentimental-credit/credit.py)
 
-- `sentimental-hello/hello.py` – [Hello, Again](https://cs50.harvard.edu/x/psets/6/hello/). A Python version of Hello from pset_1.
+  - **[Hello](https://cs50.harvard.edu/x/psets/6/hello/)**: [`sentimental-hello/hello.py`](pset_6/sentimental-hello/hello.py)
 
-- `sentimental-mario-less/mario.py` – [Mario (less)](https://cs50.harvard.edu/x/psets/6/mario/less/). A Python version of Mario (less) from pset_1.
+  - **[Mario (Less)](https://cs50.harvard.edu/x/psets/6/mario/less/)**: [`sentimental-mario-less/mario.py`](pset_6/sentimental-mario-less/mario.py)
 
-- `sentimental-mario-more/mario.py` – [Mario (more)](https://cs50.harvard.edu/x/psets/6/mario/more/). A Python version of Mario (more) from pset_1.
+  - **[Mario (More)](https://cs50.harvard.edu/x/psets/6/mario/more/)**: [`sentimental-mario-more/mario.py`](pset_6/sentimental-mario-more/mario.py)
 
-- `sentimental-readability/readability.py` – [Readability](https://cs50.harvard.edu/x/psets/6/readability/). A Python version of Readability from pset_2.
+  - **[Readability](https://cs50.harvard.edu/x/psets/6/readability/)**: [`sentimental-readability/readability.py`](pset_6/sentimental-readability/readability.py)
 
 ## How to run
 

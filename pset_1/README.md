@@ -4,17 +4,20 @@ C. Source Code. Machine Code. Compiler. Correctness, Design, Style. Visual Studi
 
 ## Files in this directory
 
-- `cash/cash.c` – [Cash](https://cs50.harvard.edu/x/psets/1/cash/). Implements a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) to calculate the minimum number of coins needed for change.
+- **[Cash](https://cs50.harvard.edu/x/psets/1/cash/)** – Implements a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) to calculate the minimum number of coins for change.
+  - File: [`cash/cash.c`](pset_1/cash/cash.c)
 
-- `credit/credit.c` – [Credit](https://cs50.harvard.edu/x/psets/1/credit/). Implements the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
+- **[Credit](https://cs50.harvard.edu/x/psets/1/credit/)** – Validates credit card numbers using the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
+  - File: [`credit/credit.c`](pset_1/credit/credit.c)
 
-- `mario-less/mario.c` – [Mario (less)](https://cs50.harvard.edu/x/psets/1/mario/less/). Prints a pyramid of hashes (#).
+- **[Mario (less)](https://cs50.harvard.edu/x/psets/1/mario/less/)** – Prints a right-aligned pyramid of hashes (`#`).
+  - File: [`mario-less/mario.c`](pset_1/mario-less/mario.c)
 
-- `mario-more/mario.c` – [Mario (more)](https://cs50.harvard.edu/x/psets/1/mario/more/). Prints a pyramid of hashes (#), slightly harder.
+- **[Mario (more)](https://cs50.harvard.edu/x/psets/1/mario/more/)** – Prints two adjacent pyramids of hashes (`#`).
+  - File: [`mario-more/mario.c`](pset_1/mario-more/mario.c)
 
-- `me/hello.c` – [Hello, It's Me](https://cs50.harvard.edu/x/psets/1/me/). A *"hello, world"* program with name input.
-
-- `world/hello.c` – [Hello, World](https://cs50.harvard.edu/x/psets/1/world/). A simple *"hello, world"* program.
+- **[Hello, It's Me](https://cs50.harvard.edu/x/psets/1/me/)** – A "hello, world" program that prompts the user for their name.
+  - File: [`me/hello.c`](pset_1/me/hello.c)
 
 ## How to run
 
@@ -36,7 +39,7 @@ If you're using the [CS50 IDE](cs50.dev), everything is preinstalled.
 **Example:**
 
 ```bash
-# Compiles the hello.c file into an executable file named hello
+# Compiles hello.c into an executable file
 make hello
 
 # Runs the program

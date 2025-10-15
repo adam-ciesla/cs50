@@ -4,8 +4,9 @@ Computer Science. Computational Thinking. Problem Solving: Inputs, Outputs. Repr
 
 ## Files in this directory
 
-- `project.sb3` – [Starting from Scratch](https://cs50.harvard.edu/x/psets/0/scratch/). A simple **"catch the apple"** game created in Scratch, inspired by the classic Polish cartoon ["Porwanie Baltazara Gąbki"](https://en.wikipedia.org/wiki/The_Abduction_of_Balthazar_Sponge_(TV_series)).
-
+- **[Starting from Scratch](https://cs50.harvard.edu/x/psets/0/scratch/)** – A simple **"catch the apple"** game created in Scratch, inspired by the classic Polish cartoon ["Porwanie Baltazara Gąbki"](https://en.wikipedia.org/wiki/The_Abduction_of_Balthazar_Sponge_(TV_series)).
+  - File: [`project.sb3`](pset_0/project.sb3)
+  
 ## How to run
 
 To play the game:

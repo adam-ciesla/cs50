@@ -1,135 +1,163 @@
-
 # CS50x: Introduction to Computer Science
 
 This repository contains my personal solutions to Harvard University's [CS50: Introduction to Computer Science](https://cs50.harvard.edu/x) 2025 problem sets and projects. It is intended as a record of my progress throughout the course and as a portfolio of the skills I developed while learning computer science fundamentals.
 
-**Note**: Please do not copy these solutions directly for your own submissions. They are shared for reference and personal use only.
-
-## Structure
-
-### pset_0/    (Week 0 – Scratch)
+**Note**: Please do not copy these solutions for your own submissions. They are shared for reference purposes only.
 
 ---
 
-- [project.sb3](pset_0/project.sb3) – [Starting from Scratch](https://cs50.harvard.edu/x/psets/0/scratch/). A simple **"catch the apple"** game created in Scratch, inspired by the classic Polish cartoon ["Porwanie Baltazara Gąbki"](https://en.wikipedia.org/wiki/The_Abduction_of_Balthazar_Sponge_(TV_series)).
+## Problem Sets
 
-### pset_1/    (Week 1 – C)
+<details>
+<summary><h3>Week 0 – Scratch</h3></summary>
 
----
+- **[Starting from Scratch](https://cs50.harvard.edu/x/psets/0/scratch/)** – A simple **"catch the apple"** game created in Scratch, inspired by the classic Polish cartoon ["Porwanie Baltazara Gąbki"](https://en.wikipedia.org/wiki/The_Abduction_of_Balthazar_Sponge_(TV_series)).
+  - File: [`project.sb3`](pset_0/project.sb3)
 
-- [cash/cash.c](pset_1/cash/cash.c) – [Cash](https://cs50.harvard.edu/x/psets/1/cash/). Implements a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) to calculate the minimum number of coins needed for change.
+</details>
 
-- [credit/credit.c](pset_1/credit/credit.c) – [Credit](https://cs50.harvard.edu/x/psets/1/credit/). Implements the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
+<details>
+<summary><h3>Week 1 – C</h3></summary>
 
-- [mario-less/mario.c](pset_1/mario-less/mario.c) – [Mario (less)](https://cs50.harvard.edu/x/psets/1/mario/less/). Prints a pyramid of hashes (#).
+- **[Cash](https://cs50.harvard.edu/x/psets/1/cash/)** – Implements a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) to calculate the minimum number of coins for change.
+  - File: [`cash/cash.c`](pset_1/cash/cash.c)
 
-- [mario-more/mario.c](pset_1/mario-more/mario.c) – [Mario (more)](https://cs50.harvard.edu/x/psets/1/mario/more/). Prints a pyramid of hashes (#), slightly harder.
+- **[Credit](https://cs50.harvard.edu/x/psets/1/credit/)** – Validates credit card numbers using the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
+  - File: [`credit/credit.c`](pset_1/credit/credit.c)
 
-- [me/hello.c](pset_1/me/hello.c) – [Hello, It's Me](https://cs50.harvard.edu/x/psets/1/me/). A *"hello, world"* program with name input.
+- **[Mario (less)](https://cs50.harvard.edu/x/psets/1/mario/less/)** – Prints a right-aligned pyramid of hashes (`#`).
+  - File: [`mario-less/mario.c`](pset_1/mario-less/mario.c)
 
-- [world/hello.c](pset_1/world/hello.c) – [Hello, World](https://cs50.harvard.edu/x/psets/1/world/). A simple *"hello, world"* program.
+- **[Mario (more)](https://cs50.harvard.edu/x/psets/1/mario/more/)** – Prints two adjacent pyramids of hashes (`#`).
+  - File: [`mario-more/mario.c`](pset_1/mario-more/mario.c)
 
-### pset_2/    (Week 2 – Arrays)
+- **[Hello, It's Me](https://cs50.harvard.edu/x/psets/1/me/)** – A "hello, world" program that prompts the user for their name.
+  - File: [`me/hello.c`](pset_1/me/hello.c)
 
----
+</details>
 
-- [caesar/caesar.c](pset_2/caesar/caesar.c) – [Caesar](https://cs50.harvard.edu/x/psets/2/caesar/). Implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher).
+<details>
+<summary><h3>Week 2 – Arrays</h3></summary>
 
-- [readability/readability.c](pset_2/readability/readability.c) – [Readability](https://cs50.harvard.edu/x/psets/2/readability/). Calculates the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) to estimate the reading level of a given text.
+- **[Caesar](https://cs50.harvard.edu/x/psets/2/caesar/)** – Implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) for text encryption.
+  - File: [`caesar/caesar.c`](pset_2/caesar/caesar.c)
 
-- [scrabble/scrabble.c](pset_2/scrabble/scrabble.c) – [Scrabble](https://cs50.harvard.edu/x/psets/2/scrabble/). A simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), comparing two players' scores.
+- **[Readability](https://cs50.harvard.edu/x/psets/2/readability/)** – Estimates the reading level of a text using the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index).
+  - File: [`readability/readability.c`](pset_2/readability/readability.c)
 
-### pset_3/    (Week 3 – Algoritms)
+- **[Scrabble](https://cs50.harvard.edu/x/psets/2/scrabble/)** – A simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble) that determines the winning word between two players.
+  - File: [`scrabble/scrabble.c`](pset_2/scrabble/scrabble.c)
 
----
+</details>
 
-- [plurality/plurality.c](pset_3/plurality/plurality.c) – [Plurality](https://cs50.harvard.edu/x/psets/3/plurality/). Runs a [plurality election](https://en.wikipedia.org/wiki/Plurality_voting).
+<details>
+<summary><h3>Week 3 – Algorithms</h3></summary>
 
-- [runoff/runoff.c](pset_3/runoff/runoff.c) – [Runoff](https://cs50.harvard.edu/x/psets/3/runoff/). Runs a [runoff election](https://en.wikipedia.org/wiki/Instant-runoff_voting).
+- **[Plurality](https://cs50.harvard.edu/x/psets/3/plurality/)** – Simulates a [plurality election](https://en.wikipedia.org/wiki/Plurality_voting).
+  - File: [`plurality/plurality.c`](pset_3/plurality/plurality.c)
 
-- [sort/](pset_3/sort) – [Sort](https://cs50.harvard.edu/x/psets/3/sort/). A problem where you need to decide which sorting algorithm is which based on how fast they compile.
+- **[Runoff](https://cs50.harvard.edu/x/psets/3/runoff/)** – Simulates a ranked-choice [runoff election](https://en.wikipedia.org/wiki/Instant-runoff_voting).
+  - File: [`runoff/runoff.c`](pset_3/runoff/runoff.c)
 
-### pset_4/    (Week 4 – Memory)
+- **[Sort](https://cs50.harvard.edu/x/psets/3/sort/)** – A problem about identifying sorting algorithms based on their performance characteristics.
+  - Directory: [`sort/`](pset_3/sort)
 
----
+</details>
 
-- [filter-less/](pset_4/filter-less/) – [Filter (less comfortable)](https://cs50.harvard.edu/x/psets/4/filter/less/). A command-line program to apply filters to images such as grayscale, sepia, reflect and blur.
+<details>
+<summary><h3>Week 4 – Memory</h3></summary>
 
-- [filter-more/](pset_4/filter-more/) – [Filter (more comfortable)](https://cs50.harvard.edu/x/psets/4/filter/more/). Same as the "less" version with the addition of an edge detection filter using the [Sobel operator](https://en.wikipedia.org/wiki/Sobel_operator).
+- **[Filter (less)](https://cs50.harvard.edu/x/psets/4/filter/less/)** – A command-line program applying filters (grayscale, sepia, reflect, blur) to bitmap images.
+  - Directory: [`filter-less/`](pset_4/filter-less/)
 
-- [recover/recover.c](pset_4/recover/recover.c) – [Recover](https://cs50.harvard.edu/x/psets/4/recover/). A program that restores JPEG images from a [RAW image file](https://en.wikipedia.org/wiki/Raw_image_format) from a memory card.
+- **[Filter (more)](https://cs50.harvard.edu/x/psets/4/filter/more/)** – The "less" version with an added edge detection filter using the [Sobel operator](https://en.wikipedia.org/wiki/Sobel_operator).
+  - Directory: [`filter-more/`](pset_4/filter-more/)
 
-- [volume/volume.c](pset_4/volume/volume.c) - [Volume](https://cs50.harvard.edu/x/psets/4/volume/). A program that modifies the volume of a [WAV file](https://docs.fileformat.com/audio/wav/).
+- **[Recover](https://cs50.harvard.edu/x/psets/4/recover/)** – A program that recovers JPEG images from a forensic image of a memory card.
+  - File: [`recover/recover.c`](pset_4/recover/recover.c)
 
-### pset_5/    (Week 5 – Data Structures)
+- **[Volume](https://cs50.harvard.edu/x/psets/4/volume/)** – A program that modifies the volume of an audio WAV file.
+  - File: [`volume/volume.c`](pset_4/volume/volume.c)
 
----
+</details>
+
+<details>
+<summary><h3>Week 5 – Data Structures</h3></summary>
+
+... 
+
+</details>
+
+<details>
+<summary><h3>Week 6 – Python</h3></summary>
+
+- **[DNA](https://cs50.harvard.edu/x/psets/6/dna/)** – Identifies a person based on a DNA sequence by matching Short Tandem Repeats (STRs) against a database.
+  - File: [`dna/dna.py`](pset_6/dna/dna.py)
+
+- **Sentimental series** – Python implementations of earlier problems from the course:
+  - **[Cash](https://cs50.harvard.edu/x/psets/6/cash/)**: [`sentimental-cash/cash.py`](pset_6/sentimental-cash/cash.py)
+
+  - **[Credit](https://cs50.harvard.edu/x/psets/6/credit/)**: [`sentimental-credit/credit.py`](pset_6/sentimental-credit/credit.py)
+
+  - **[Hello](https://cs50.harvard.edu/x/psets/6/hello/)**: [`sentimental-hello/hello.py`](pset_6/sentimental-hello/hello.py)
+
+  - **[Mario (Less)](https://cs50.harvard.edu/x/psets/6/mario/less/)**: [`sentimental-mario-less/mario.py`](pset_6/sentimental-mario-less/mario.py)
+
+  - **[Mario (More)](https://cs50.harvard.edu/x/psets/6/mario/more/)**: [`sentimental-mario-more/mario.py`](pset_6/sentimental-mario-more/mario.py)
+
+  - **[Readability](https://cs50.harvard.edu/x/psets/6/readability/)**: [`sentimental-readability/readability.py`](pset_6/sentimental-readability/readability.py)
+
+</details>
+
+<details>
+<summary><h3>Week 7 – SQL</h3></summary>
+
+- **[Fiftyville](https://cs50.harvard.edu/x/psets/7/fiftyville/)** – A detective project to solve a theft mystery by querying the `fiftyville.db` database to identify the thief, their accomplice, and their escape city.
+  - Directory: [`fiftyville/`](pset_7/fiftyville/)
+
+- **[Movies](https://cs50.harvard.edu/x/psets/7/movies/)** – A set of SQL queries on a database of movies from [IMDb](https://www.imdb.com/).
+  - Directory: [`movies/`](pset_7/movies/)
+
+- **[Songs](https://cs50.harvard.edu/x/psets/7/songs/)** – A set of SQL queries on a database of the top 100 streamed songs on Spotify in 2018.
+  - Directory: [`songs/`](pset_7/songs/)
+
+</details>
+
+<details>
+<summary><h3>Week 8 – HTML, CSS, JavaScript</h3></summary>
 
 ...
 
-### pset_6/    (Week 6 – Python)
+</details>
 
----
+<details>
+<summary><h3>Week 9 – Flask</h3></summary>
 
-- [dna/dna.py](pset_6/dna/dna.py) – [DNA](https://cs50.harvard.edu/x/psets/6/dna/). Identifies to which person specified in a .csv file a DNA sequence belongs.
+... 
 
-- [sentimental-cash/cash.py](pset_6/sentimental-cash/cash.py) – [Cash](https://cs50.harvard.edu/x/psets/6/cash/). A Python version of Cash from pset_1.
-
-- [sentimental-credit/credit.py](pset_6/sentimental-credit/credit.py) – [Credit](https://cs50.harvard.edu/x/psets/6/credit/). A Python version of Credit from pset_1.
-
-- [sentimental-hello/hello.py](pset_6/sentimental-hello/hello.py) – [Hello, Again](https://cs50.harvard.edu/x/psets/6/hello/). A Python version of Hello from pset_1.
-
-- [sentimental-mario-less/mario.py](pset_6/sentimental-mario-less/mario.py) – [Mario (less)](https://cs50.harvard.edu/x/psets/6/mario/less/). A Python version of Mario (less) from pset_1.
-
-- [sentimental-mario-more/mario.py](pset_6/sentimental-mario-more/mario.py) – [Mario (more)](https://cs50.harvard.edu/x/psets/6/mario/more/). A Python version of Mario (more) from pset_1.
-
-- [sentimental-readability/readability.py](pset_6/sentimental-readability/readability.py) – [Readability](https://cs50.harvard.edu/x/psets/6/readability/). A Python version of Readability from pset_2.
-
-### pset_7/    (Week 7 – SQL)
-
----
-
-- [fiftyville/](pset_7/fiftyville/) – [Fiftyville](https://cs50.harvard.edu/x/psets/7/fiftyville/). Solving a theft mystery by using SQL queries on the fiftyville.db database to identify the thief, their accomplice, and their escape city.
-
-- [movies/](pset_7/movies/) – [Movies](https://cs50.harvard.edu/x/psets/7/movies/). SQL queries on the [IMDb database](https://www.imdb.com/). The `movies.db` file is available to download on the problem's website (listed on the left), as it was too large to push on GitHub.
-
-- [songs/](pset_7/songs/) – [Songs](https://cs50.harvard.edu/x/psets/7/songs/). SQL queries on the top 100 streamed songs in 2018 on Spotify.
-
-### pset_8/    (Week 8 – HTML, CSS, JavaScript)
-
----
-
-...
-
-### pset_9/    (Week 9 – Flask)
-
----
-
-...
-
-### (Week 10 – The End)
+</details>
 
 ---
 
 ## Progress
 
-- [x] Week 0 - Scratch
-- [x] Week 1 - C
-- [x] Week 2 - Arrays
-- [x] Week 3 - Algorithms
-- [x] Week 4 - Memory
-- [ ] Week 5 - Data Structures
-- [x] Week 6 - Python
-- [x] Week 7 - SQL
-- [ ] Week 8 - HTML, CSS, JavaScript
-- [ ] Week 9 - Flask
-- [ ] Week 10 - The End (Final Project)
+- [x] Week 0 – Scratch
+- [x] Week 1 – C
+- [x] Week 2 – Arrays
+- [x] Week 3 – Algorithms
+- [x] Week 4 – Memory
+- [ ] Week 5 – Data Structures
+- [x] Week 6 – Python
+- [x] Week 7 – SQL
+- [ ] Week 8 – HTML, CSS, JavaScript
+- [ ] Week 9 – Flask
+- [ ] Week 10 – The End (Final Project)
 
 ---
 
 ## License
 
-MIT License © 2025 Adam Cieśla
+Copyright (c) 2025 Adam Cieśla
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -148,4 +176,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-

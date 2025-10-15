@@ -4,11 +4,14 @@ Searching: Linear Search, Binary Search. Sorting: Bubble Sort, Selection Sort, M
 
 ## Files in this directory
 
-- `plurality/plurality.c` – [Plurality](https://cs50.harvard.edu/x/psets/3/plurality/). Runs a [plurality election](https://en.wikipedia.org/wiki/Plurality_voting).
+- **[Plurality](https://cs50.harvard.edu/x/psets/3/plurality/)** – Simulates a [plurality election](https://en.wikipedia.org/wiki/Plurality_voting).
+  - File: [`plurality/plurality.c`](pset_3/plurality/plurality.c)
 
-- `runoff/runoff.c` – [Runoff](https://cs50.harvard.edu/x/psets/3/runoff/). Runs a [runoff election](https://en.wikipedia.org/wiki/Instant-runoff_voting).
+- **[Runoff](https://cs50.harvard.edu/x/psets/3/runoff/)** – Simulates a ranked-choice [runoff election](https://en.wikipedia.org/wiki/Instant-runoff_voting).
+  - File: [`runoff/runoff.c`](pset_3/runoff/runoff.c)
 
-- `sort/` - [Sort](https://cs50.harvard.edu/x/psets/3/sort/). A problem where you need to decide which sorting algorithm is which based on how fast they compile.
+- **[Sort](https://cs50.harvard.edu/x/psets/3/sort/)** – A problem about identifying sorting algorithms based on their performance characteristics.
+  - Directory: [`sort/`](pset_3/sort)
 
 ## How to run
 
@@ -30,7 +33,7 @@ If you're using the [CS50 IDE](cs50.dev), everything is preinstalled.
 **Example:**
 
 ```bash
-# Compiles the hello.c file into an executable file named hello
+# Compiles hello.c into an executable file
 make hello
 
 # Runs the program

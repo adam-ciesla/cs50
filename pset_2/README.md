@@ -4,11 +4,14 @@ Preprocessing. Compiling. Assembling. Linking. Debugging. Arrays. Strings. Comma
 
 ## Files in this directory
 
-- `caesar/caesar.c` - [Caesar](https://cs50.harvard.edu/x/psets/2/caesar/). Implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher).
+- **[Caesar](https://cs50.harvard.edu/x/psets/2/caesar/)** – Implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) for text encryption.
+  - File: [`caesar/caesar.c`](pset_2/caesar/caesar.c)
 
-- `readability/readability.c` – [Readability](https://cs50.harvard.edu/x/psets/2/readability/). Calculates the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) to estimate the reading level of a given text.
+- **[Readability](https://cs50.harvard.edu/x/psets/2/readability/)** – Estimates the reading level of a text using the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index).
+  - File: [`readability/readability.c`](pset_2/readability/readability.c)
 
-- `scrabble/scrabble.c` - [Scrabble](https://cs50.harvard.edu/x/psets/2/scrabble/). A simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), comparing two players' scores.
+- **[Scrabble](https://cs50.harvard.edu/x/psets/2/scrabble/)** – A simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble) that determines the winning word between two players.
+  - File: [`scrabble/scrabble.c`](pset_2/scrabble/scrabble.c)
 
 ## How to run
 
@@ -30,7 +33,7 @@ If you're using the [CS50 IDE](cs50.dev), everything is preinstalled.
 **Example:**
 
 ```bash
-# Compiles the hello.c file into an executable file named hello
+# Compiles hello.c into an executable file
 make hello
 
 # Runs the program

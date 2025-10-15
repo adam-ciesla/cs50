@@ -4,13 +4,17 @@ Pointers. Segmentation Faults. Dynamic Memory Allocation. Stack. Heap. Buffer Ov
 
 ## Files in this directory
 
-- `filter-less/` – [Filter (less comfortable)](https://cs50.harvard.edu/x/psets/4/filter/less/). A command-line program to apply filters to images such as grayscale, sepia, reflect and blur.
+- **[Filter (less)](https://cs50.harvard.edu/x/psets/4/filter/less/)** – A command-line program applying filters (grayscale, sepia, reflect, blur) to bitmap images.
+  - Directory: [`filter-less/`](pset_4/filter-less/)
 
-- `filter-more/` – [Filter (more comfortable)](https://cs50.harvard.edu/x/psets/4/filter/more/). Same as the "less" version with the addition of an edge detection filter using the [Sobel operator](https://en.wikipedia.org/wiki/Sobel_operator).
+- **[Filter (more)](https://cs50.harvard.edu/x/psets/4/filter/more/)** – The "less" version with an added edge detection filter using the [Sobel operator](https://en.wikipedia.org/wiki/Sobel_operator).
+  - Directory: [`filter-more/`](pset_4/filter-more/)
 
-- `recover/recover.c` – [Recover](https://cs50.harvard.edu/x/psets/4/recover/). A program that restores JPEG images from a [RAW image file](https://en.wikipedia.org/wiki/Raw_image_format) from a memory card.
+- **[Recover](https://cs50.harvard.edu/x/psets/4/recover/)** – A program that recovers JPEG images from a forensic image of a memory card.
+  - File: [`recover/recover.c`](pset_4/recover/recover.c)
 
-- `volume/volume.c` - [Volume](https://cs50.harvard.edu/x/psets/4/volume/). A program that modifies the volume of a [WAV file](https://docs.fileformat.com/audio/wav/).
+- **[Volume](https://cs50.harvard.edu/x/psets/4/volume/)** – A program that modifies the volume of an audio WAV file.
+  - File: [`volume/volume.c`](pset_4/volume/volume.c)
 
 ## How to run
 
@@ -32,7 +36,7 @@ If you're using the [CS50 IDE](cs50.dev), everything is preinstalled.
 **Example:**
 
 ```bash
-# Compiles the hello.c file into an executable file named hello
+# Compiles hello.c into an executable file 
 make hello
 
 # Runs the program
