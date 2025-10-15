@@ -8,15 +8,12 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 ## Problem Sets
 
-<details>
-<summary><h3>Week 0 – Scratch 🐱</h3></summary>
+### Week 0 – Scratch 🐱
 
 - **[Starting from Scratch](https://cs50.harvard.edu/x/psets/0/scratch/)** – A simple **"catch the apple"** game created in Scratch, inspired by the classic Polish cartoon ["Porwanie Baltazara Gąbki"](https://en.wikipedia.org/wiki/The_Abduction_of_Balthazar_Sponge_(TV_series)).
   - File: [`project.sb3`](pset_0/project.sb3)
 
-</details>
-<details>
-<summary><h3>Week 1 – C 🍄</h3></summary>
+### Week 1 – C 🍄
 
 - **[Cash](https://cs50.harvard.edu/x/psets/1/cash/)** – Implements a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) to calculate the minimum number of coins for change.
   - File: [`cash/cash.c`](pset_1/cash/cash.c)
@@ -33,9 +30,7 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 - **[Hello, It's Me](https://cs50.harvard.edu/x/psets/1/me/)** – A "hello, world" program that prompts the user for their name.
   - File: [`me/hello.c`](pset_1/me/hello.c)
 
-</details>
-<details>
-<summary><h3>Week 2 – Arrays 🔡</h3></summary>
+### Week 2 – Arrays 🔡
 
 - **[Caesar](https://cs50.harvard.edu/x/psets/2/caesar/)** – Implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) for text encryption.
   - File: [`caesar/caesar.c`](pset_2/caesar/caesar.c)
@@ -46,9 +41,7 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 - **[Scrabble](https://cs50.harvard.edu/x/psets/2/scrabble/)** – A simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble) that determines the winning word between two players.
   - File: [`scrabble/scrabble.c`](pset_2/scrabble/scrabble.c)
 
-</details>
-<details>
-<summary><h3>Week 3 – Algorithms 🔎</h3></summary>
+### Week 3 – Algorithms 🔎
 
 - **[Plurality](https://cs50.harvard.edu/x/psets/3/plurality/)** – Simulates a [plurality election](https://en.wikipedia.org/wiki/Plurality_voting).
   - File: [`plurality/plurality.c`](pset_3/plurality/plurality.c)
@@ -59,9 +52,7 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 - **[Sort](https://cs50.harvard.edu/x/psets/3/sort/)** – A problem about identifying sorting algorithms based on their performance characteristics.
   - Directory: [`sort/`](pset_3/sort)
 
-</details>
-<details>
-<summary><h3>Week 4 – Memory 🧠</h3></summary>
+### Week 4 – Memory 🧠
 
 - **[Filter (less)](https://cs50.harvard.edu/x/psets/4/filter/less/)** – A command-line program applying filters (grayscale, sepia, reflect, blur) to bitmap images.
   - Directory: [`filter-less/`](pset_4/filter-less/)
@@ -75,15 +66,11 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 - **[Volume](https://cs50.harvard.edu/x/psets/4/volume/)** – A program that modifies the volume of an audio WAV file.
   - File: [`volume/volume.c`](pset_4/volume/volume.c)
 
-</details>
-<details>
-<summary><h3>Week 5 – Data Structures 📚</h3></summary>
+### Week 5 – Data Structures 📚
 
 ... 
 
-</details>
-<details>
-<summary><h3>Week 6 – Python 🐍</h3></summary>
+### Week 6 – Python 🐍
 
 - **[DNA](https://cs50.harvard.edu/x/psets/6/dna/)** – Identifies a person based on a DNA sequence by matching Short Tandem Repeats (STRs) against a database.
   - File: [`dna/dna.py`](pset_6/dna/dna.py)
@@ -95,15 +82,13 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
   - **[Hello](https://cs50.harvard.edu/x/psets/6/hello/)**: [`sentimental-hello/hello.py`](pset_6/sentimental-hello/hello.py)
 
-  - **[Mario (Less)](https://cs50.harvard.edu/x/psets/6/mario/less/)**: [`sentimental-mario-less/mario.py`](pset_6/sentimental-mario-less/mario.py)
+  - **[Mario (less)](https://cs50.harvard.edu/x/psets/6/mario/less/)**: [`sentimental-mario-less/mario.py`](pset_6/sentimental-mario-less/mario.py)
 
-  - **[Mario (More)](https://cs50.harvard.edu/x/psets/6/mario/more/)**: [`sentimental-mario-more/mario.py`](pset_6/sentimental-mario-more/mario.py)
+  - **[Mario (more)](https://cs50.harvard.edu/x/psets/6/mario/more/)**: [`sentimental-mario-more/mario.py`](pset_6/sentimental-mario-more/mario.py)
 
   - **[Readability](https://cs50.harvard.edu/x/psets/6/readability/)**: [`sentimental-readability/readability.py`](pset_6/sentimental-readability/readability.py)
 
-</details>
-<details>
-<summary><h3>Week 7 – SQL 🔎</h3></summary>
+### Week 7 – SQL 🔎
 
 - **[Fiftyville](https://cs50.harvard.edu/x/psets/7/fiftyville/)** – A detective project to solve a theft mystery by querying the `fiftyville.db` database to identify the thief, their accomplice, and their escape city.
   - Directory: [`fiftyville/`](pset_7/fiftyville/)
@@ -114,19 +99,19 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 - **[Songs](https://cs50.harvard.edu/x/psets/7/songs/)** – A set of SQL queries on a database of the top 100 streamed songs on Spotify in 2018.
   - Directory: [`songs/`](pset_7/songs/)
 
-</details>
-<details>
-<summary><h3>Week 8 – HTML, CSS, JavaScript 🌐</h3></summary>
+### Week 8 – HTML, CSS, JavaScript 🌐
 
-...
+- **[Homepage](https://cs50.harvard.edu/x/psets/8/homepage/)** – ...
+  - Directory: [`homepage/`](pset_8/homepage/)
 
-</details>
-<details>
-<summary><h3>Week 9 – Flask 🌐</h3></summary>
+- **[Trivia](https://cs50.harvard.edu/x/psets/8/trivia/)** – ...
+  - Directory: [`trivia/`](pset_8/trivia/)
+
+### Week 9 – Flask 🌐
 
 ... 
 
-</details>
+### Week 10 – The End
 
 ---
 
