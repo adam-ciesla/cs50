@@ -9,14 +9,14 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 ## Problem Sets
 
 <details>
-<summary><h3>Week 0 – Scratch</h3></summary>
+<summary><h3>Week 0 – Scratch 🐱</h3></summary>
 
 - **[Starting from Scratch](https://cs50.harvard.edu/x/psets/0/scratch/)** – A simple **"catch the apple"** game created in Scratch, inspired by the classic Polish cartoon ["Porwanie Baltazara Gąbki"](https://en.wikipedia.org/wiki/The_Abduction_of_Balthazar_Sponge_(TV_series)).
   - File: [`project.sb3`](pset_0/project.sb3)
 
 </details>
 <details>
-<summary><h3>Week 1 – C</h3></summary>
+<summary><h3>Week 1 – C 🍄</h3></summary>
 
 - **[Cash](https://cs50.harvard.edu/x/psets/1/cash/)** – Implements a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) to calculate the minimum number of coins for change.
   - File: [`cash/cash.c`](pset_1/cash/cash.c)
@@ -35,7 +35,7 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 </details>
 <details>
-<summary><h3>Week 2 – Arrays</h3></summary>
+<summary><h3>Week 2 – Arrays 🔡</h3></summary>
 
 - **[Caesar](https://cs50.harvard.edu/x/psets/2/caesar/)** – Implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) for text encryption.
   - File: [`caesar/caesar.c`](pset_2/caesar/caesar.c)
@@ -48,7 +48,7 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 </details>
 <details>
-<summary><h3>Week 3 – Algorithms</h3></summary>
+<summary><h3>Week 3 – Algorithms 🔎</h3></summary>
 
 - **[Plurality](https://cs50.harvard.edu/x/psets/3/plurality/)** – Simulates a [plurality election](https://en.wikipedia.org/wiki/Plurality_voting).
   - File: [`plurality/plurality.c`](pset_3/plurality/plurality.c)
@@ -61,7 +61,7 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 </details>
 <details>
-<summary><h3>Week 4 – Memory</h3></summary>
+<summary><h3>Week 4 – Memory 🧠</h3></summary>
 
 - **[Filter (less)](https://cs50.harvard.edu/x/psets/4/filter/less/)** – A command-line program applying filters (grayscale, sepia, reflect, blur) to bitmap images.
   - Directory: [`filter-less/`](pset_4/filter-less/)
@@ -77,13 +77,13 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 </details>
 <details>
-<summary><h3>Week 5 – Data Structures</h3></summary>
+<summary><h3>Week 5 – Data Structures 📚</h3></summary>
 
 ... 
 
 </details>
 <details>
-<summary><h3>Week 6 – Python</h3></summary>
+<summary><h3>Week 6 – Python 🐍</h3></summary>
 
 - **[DNA](https://cs50.harvard.edu/x/psets/6/dna/)** – Identifies a person based on a DNA sequence by matching Short Tandem Repeats (STRs) against a database.
   - File: [`dna/dna.py`](pset_6/dna/dna.py)
@@ -103,7 +103,7 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 </details>
 <details>
-<summary><h3>Week 7 – SQL</h3></summary>
+<summary><h3>Week 7 – SQL 🔎</h3></summary>
 
 - **[Fiftyville](https://cs50.harvard.edu/x/psets/7/fiftyville/)** – A detective project to solve a theft mystery by querying the `fiftyville.db` database to identify the thief, their accomplice, and their escape city.
   - Directory: [`fiftyville/`](pset_7/fiftyville/)
@@ -116,13 +116,13 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 </details>
 <details>
-<summary><h3>Week 8 – HTML, CSS, JavaScript</h3></summary>
+<summary><h3>Week 8 – HTML, CSS, JavaScript 🌐</h3></summary>
 
 ...
 
 </details>
 <details>
-<summary><h3>Week 9 – Flask</h3></summary>
+<summary><h3>Week 9 – Flask 🌐</h3></summary>
 
 ... 
 
