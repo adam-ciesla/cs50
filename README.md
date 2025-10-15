@@ -15,7 +15,6 @@ This repository contains my personal solutions to Harvard University's [CS50: In
   - File: [`project.sb3`](pset_0/project.sb3)
 
 </details>
-
 <details>
 <summary><h3>Week 1 – C</h3></summary>
 
@@ -35,7 +34,6 @@ This repository contains my personal solutions to Harvard University's [CS50: In
   - File: [`me/hello.c`](pset_1/me/hello.c)
 
 </details>
-
 <details>
 <summary><h3>Week 2 – Arrays</h3></summary>
 
@@ -49,7 +47,6 @@ This repository contains my personal solutions to Harvard University's [CS50: In
   - File: [`scrabble/scrabble.c`](pset_2/scrabble/scrabble.c)
 
 </details>
-
 <details>
 <summary><h3>Week 3 – Algorithms</h3></summary>
 
@@ -63,7 +60,6 @@ This repository contains my personal solutions to Harvard University's [CS50: In
   - Directory: [`sort/`](pset_3/sort)
 
 </details>
-
 <details>
 <summary><h3>Week 4 – Memory</h3></summary>
 
@@ -80,14 +76,12 @@ This repository contains my personal solutions to Harvard University's [CS50: In
   - File: [`volume/volume.c`](pset_4/volume/volume.c)
 
 </details>
-
 <details>
 <summary><h3>Week 5 – Data Structures</h3></summary>
 
 ... 
 
 </details>
-
 <details>
 <summary><h3>Week 6 – Python</h3></summary>
 
@@ -108,7 +102,6 @@ This repository contains my personal solutions to Harvard University's [CS50: In
   - **[Readability](https://cs50.harvard.edu/x/psets/6/readability/)**: [`sentimental-readability/readability.py`](pset_6/sentimental-readability/readability.py)
 
 </details>
-
 <details>
 <summary><h3>Week 7 – SQL</h3></summary>
 
@@ -122,14 +115,12 @@ This repository contains my personal solutions to Harvard University's [CS50: In
   - Directory: [`songs/`](pset_7/songs/)
 
 </details>
-
 <details>
 <summary><h3>Week 8 – HTML, CSS, JavaScript</h3></summary>
 
 ...
 
 </details>
-
 <details>
 <summary><h3>Week 9 – Flask</h3></summary>
 
