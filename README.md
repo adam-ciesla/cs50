@@ -9,9 +9,13 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 ### pset_0/    (Week 0 – Scratch)
 
+---
+
 - [project.sb3](pset_0/project.sb3) – [Starting from Scratch](https://cs50.harvard.edu/x/psets/0/scratch/). A simple **"catch the apple"** game created in Scratch, inspired by the classic Polish cartoon ["Porwanie Baltazara Gąbki"](https://en.wikipedia.org/wiki/The_Abduction_of_Balthazar_Sponge_(TV_series)).
 
 ### pset_1/    (Week 1 – C)
+
+---
 
 - [cash/cash.c](pset_1/cash/cash.c) – [Cash](https://cs50.harvard.edu/x/psets/1/cash/). Implements a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) to calculate the minimum number of coins needed for change.
 
@@ -27,6 +31,8 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 ### pset_2/    (Week 2 – Arrays)
 
+---
+
 - [caesar/caesar.c](pset_2/caesar/caesar.c) – [Caesar](https://cs50.harvard.edu/x/psets/2/caesar/). Implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher).
 
 - [readability/readability.c](pset_2/readability/readability.c) – [Readability](https://cs50.harvard.edu/x/psets/2/readability/). Calculates the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) to estimate the reading level of a given text.
@@ -35,6 +41,8 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 ### pset_3/    (Week 3 – Algoritms)
 
+---
+
 - [plurality/plurality.c](pset_3/plurality/plurality.c) – [Plurality](https://cs50.harvard.edu/x/psets/3/plurality/). Runs a [plurality election](https://en.wikipedia.org/wiki/Plurality_voting).
 
 - [runoff/runoff.c](pset_3/runoff/runoff.c) – [Runoff](https://cs50.harvard.edu/x/psets/3/runoff/). Runs a [runoff election](https://en.wikipedia.org/wiki/Instant-runoff_voting).
@@ -42,6 +50,8 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 - [sort/](pset_3/sort) – [Sort](https://cs50.harvard.edu/x/psets/3/sort/). A problem where you need to decide which sorting algorithm is which based on how fast they compile.
 
 ### pset_4/    (Week 4 – Memory)
+
+---
 
 - [filter-less/](pset_4/filter-less/) – [Filter (less comfortable)](https://cs50.harvard.edu/x/psets/4/filter/less/). A command-line program to apply filters to images such as grayscale, sepia, reflect and blur.
 
@@ -53,9 +63,13 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 ### pset_5/    (Week 5 – Data Structures)
 
+---
+
 ...
 
 ### pset_6/    (Week 6 – Python)
+
+---
 
 - [dna/dna.py](pset_6/dna/dna.py) – [DNA](https://cs50.harvard.edu/x/psets/6/dna/). Identifies to which person specified in a .csv file a DNA sequence belongs.
 
@@ -73,6 +87,7 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 ### pset_7/    (Week 7 – SQL)
 
+---
 
 - [fiftyville/](pset_7/fiftyville/) – [Fiftyville](https://cs50.harvard.edu/x/psets/7/fiftyville/). Solving a theft mystery by using SQL queries on the fiftyville.db database to identify the thief, their accomplice, and their escape city.
 
@@ -82,13 +97,19 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 ### pset_8/    (Week 8 – HTML, CSS, JavaScript)
 
+---
+
 ...
 
 ### pset_9/    (Week 9 – Flask)
 
+---
+
 ...
 
 ### (Week 10 – The End)
+
+---
 
 ## Progress
 
