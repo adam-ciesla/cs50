@@ -5,7 +5,9 @@ Preprocessing. Compiling. Assembling. Linking. Debugging. Arrays. Strings. Comma
 ## Files in this directory
 
 - `caesar/caesar.c` - [Caesar](https://cs50.harvard.edu/x/psets/2/caesar/). Implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher).
+
 - `readability/readability.c` – [Readability](https://cs50.harvard.edu/x/psets/2/readability/). Calculates the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) to estimate the reading level of a given text.
+
 - `scrabble/scrabble.c` - [Scrabble](https://cs50.harvard.edu/x/psets/2/scrabble/). A simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), comparing two players' scores.
 
 ## How to run

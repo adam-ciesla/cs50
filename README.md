@@ -14,29 +14,41 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 ### pset_1/    (Week 1 – C)
 
 - [cash/cash.c](pset_1/cash/cash.c) – [Cash](https://cs50.harvard.edu/x/psets/1/cash/). Implements a [greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) to calculate the minimum number of coins needed for change.
+
 - [credit/credit.c](pset_1/credit/credit.c) – [Credit](https://cs50.harvard.edu/x/psets/1/credit/). Implements the [Luhn algorithm](https://en.wikipedia.org/wiki/Luhn_algorithm).
+
 - [mario-less/mario.c](pset_1/mario-less/mario.c) – [Mario (less)](https://cs50.harvard.edu/x/psets/1/mario/less/). Prints a pyramid of hashes (#).
+
 - [mario-more/mario.c](pset_1/mario-more/mario.c) – [Mario (more)](https://cs50.harvard.edu/x/psets/1/mario/more/). Prints a pyramid of hashes (#), slightly harder.
+
 - [me/hello.c](pset_1/me/hello.c) – [Hello, It's Me](https://cs50.harvard.edu/x/psets/1/me/). A *"hello, world"* program with name input.
+
 - [world/hello.c](pset_1/world/hello.c) – [Hello, World](https://cs50.harvard.edu/x/psets/1/world/). A simple *"hello, world"* program.
 
 ### pset_2/    (Week 2 – Arrays)
 
 - [caesar/caesar.c](pset_2/caesar/caesar.c) – [Caesar](https://cs50.harvard.edu/x/psets/2/caesar/). Implements the [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher).
+
 - [readability/readability.c](pset_2/readability/readability.c) – [Readability](https://cs50.harvard.edu/x/psets/2/readability/). Calculates the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) to estimate the reading level of a given text.
+
 - [scrabble/scrabble.c](pset_2/scrabble/scrabble.c) – [Scrabble](https://cs50.harvard.edu/x/psets/2/scrabble/). A simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble), comparing two players' scores.
 
 ### pset_3/    (Week 3 – Algoritms)
 
 - [plurality/plurality.c](pset_3/plurality/plurality.c) – [Plurality](https://cs50.harvard.edu/x/psets/3/plurality/). Runs a [plurality election](https://en.wikipedia.org/wiki/Plurality_voting).
+
 - [runoff/runoff.c](pset_3/runoff/runoff.c) – [Runoff](https://cs50.harvard.edu/x/psets/3/runoff/). Runs a [runoff election](https://en.wikipedia.org/wiki/Instant-runoff_voting).
+
 - [sort/](pset_3/sort) – [Sort](https://cs50.harvard.edu/x/psets/3/sort/). A problem where you need to decide which sorting algorithm is which based on how fast they compile.
 
 ### pset_4/    (Week 4 – Memory)
 
 - [filter-less/](pset_4/filter-less/) – [Filter (less comfortable)](https://cs50.harvard.edu/x/psets/4/filter/less/). A command-line program to apply filters to images such as grayscale, sepia, reflect and blur.
+
 - [filter-more/](pset_4/filter-more/) – [Filter (more comfortable)](https://cs50.harvard.edu/x/psets/4/filter/more/). Same as the "less" version with the addition of an edge detection filter using the [Sobel operator](https://en.wikipedia.org/wiki/Sobel_operator).
+
 - [recover/recover.c](pset_4/recover/recover.c) – [Recover](https://cs50.harvard.edu/x/psets/4/recover/). A program that restores JPEG images from a [RAW image file](https://en.wikipedia.org/wiki/Raw_image_format) from a memory card.
+
 - [volume/volume.c](pset_4/volume/volume.c) - [Volume](https://cs50.harvard.edu/x/psets/4/volume/). A program that modifies the volume of a [WAV file](https://docs.fileformat.com/audio/wav/).
 
 ### pset_5/    (Week 5 – Data Structures)
@@ -45,11 +57,28 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 ### pset_6/    (Week 6 – Python)
 
-...
+- [dna/dna.py](pset_6/dna/dna.py) – [DNA](https://cs50.harvard.edu/x/psets/6/dna/). Identifies to which person specified in a .csv file a DNA sequence belongs.
+
+- [sentimental-cash/cash.py](pset_6/sentimental-cash/cash.py) – [Cash](https://cs50.harvard.edu/x/psets/6/cash/). A Python version of Cash from pset_1.
+
+- [sentimental-credit/credit.py](pset_6/sentimental-credit/credit.py) – [Credit](https://cs50.harvard.edu/x/psets/6/credit/). A Python version of Credit from pset_1.
+
+- [sentimental-hello/hello.py](pset_6/sentimental-hello/hello.py) – [Hello, Again](https://cs50.harvard.edu/x/psets/6/hello/). A Python version of Hello from pset_1.
+
+- [sentimental-mario-less/mario.py](pset_6/sentimental-mario-less/mario.py) – [Mario (less)](https://cs50.harvard.edu/x/psets/6/mario/less/). A Python version of Mario (less) from pset_1.
+
+- [sentimental-mario-more/mario.py](pset_6/sentimental-mario-more/mario.py) – [Mario (more)](https://cs50.harvard.edu/x/psets/6/mario/more/). A Python version of Mario (more) from pset_1.
+
+- [sentimental-readability/readability.py](pset_6/sentimental-readability/readability.py) – [Readability](https://cs50.harvard.edu/x/psets/6/readability/). A Python version of Readability from pset_2.
 
 ### pset_7/    (Week 7 – SQL)
 
-...
+
+- [fiftyville/](pset_7/fiftyville/) – [Fiftyville](https://cs50.harvard.edu/x/psets/7/fiftyville/). Solving a theft mystery by using SQL queries on the fiftyville.db database to identify the thief, their accomplice, and their escape city.
+
+- [movies/](pset_7/movies/) – [Movies](https://cs50.harvard.edu/x/psets/7/movies/). SQL queries on the [IMDb database](https://www.imdb.com/). The `movies.db` file is available to download on the problem's website (listed on the left), as it was too large to push on GitHub.
+
+- [songs/](pset_7/songs/) – [Songs](https://cs50.harvard.edu/x/psets/7/songs/). SQL queries on the top 100 streamed songs in 2018 on Spotify.
 
 ### pset_8/    (Week 8 – HTML, CSS, JavaScript)
 
@@ -69,8 +98,8 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 - [x] Week 3 - Algorithms
 - [x] Week 4 - Memory
 - [ ] Week 5 - Data Structures
-- [ ] Week 6 - Python
-- [ ] Week 7 - SQL
+- [x] Week 6 - Python
+- [x] Week 7 - SQL
 - [ ] Week 8 - HTML, CSS, JavaScript
 - [ ] Week 9 - Flask
 - [ ] Week 10 - The End (Final Project)

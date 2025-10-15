@@ -4,9 +4,11 @@ SQL: Tables; Types; Statements; Constraints; Indexes; Keywords, Functions; Trans
 
 ## Files in this directory
 
-- `fiftyville/` – [Fiftyville](https://cs50.harvard.edu/x/psets/7/fiftyville/).
-- `movies/` – [Movies](https://cs50.harvard.edu/x/psets/7/movies/). TODO: channel movies.db in some other way?
-- `songs/` – [Songs](https://cs50.harvard.edu/x/psets/7/songs/).
+- `fiftyville/` – [Fiftyville](https://cs50.harvard.edu/x/psets/7/fiftyville/). Solving a theft mystery by using SQL queries on the fiftyville.db database to identify the thief, their accomplice, and their escape city.
+
+- `movies/` – [Movies](https://cs50.harvard.edu/x/psets/7/movies/). SQL queries on the [IMDb database](https://www.imdb.com/). The `movies.db` file is available to download on the problem's website (listed on the left), as it was too large to push on GitHub.
+
+- `songs/` – [Songs](https://cs50.harvard.edu/x/psets/7/songs/). SQL queries on the top 100 streamed songs in 2018 on Spotify.
 
 ## How to run
 
