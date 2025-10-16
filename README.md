@@ -15,8 +15,6 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 - **[Starting from Scratch](https://cs50.harvard.edu/x/psets/0/scratch/)** – A simple **"catch the apple"** game created in Scratch, inspired by the classic Polish cartoon ["Porwanie Baltazara Gąbki"](https://en.wikipedia.org/wiki/The_Abduction_of_Balthazar_Sponge_(TV_series)).
   - File: [`project.sb3`](pset_0/project.sb3)
 
----
-
 ### Week 1 – C 🍄
 
 ---
@@ -32,8 +30,6 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 - **[Hello, It's Me](https://cs50.harvard.edu/x/psets/1/me/)** – A "hello, world" program that prompts the user for their name.
   - File: [`me/hello.c`](pset_1/me/hello.c)
 
----
-
 ### Week 2 – Arrays 🔡
 
 ---
@@ -45,8 +41,6 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 - **[Scrabble](https://cs50.harvard.edu/x/psets/2/scrabble/)** – A simple game of [Scrabble](https://en.wikipedia.org/wiki/Scrabble) that determines the winning word between two players.
   - File: [`scrabble/scrabble.c`](pset_2/scrabble/scrabble.c)
 
----
-
 ### Week 3 – Algorithms 🔎
 
 ---
@@ -57,8 +51,6 @@ This repository contains my personal solutions to Harvard University's [CS50: In
   - File: [`runoff/runoff.c`](pset_3/runoff/runoff.c)
 - **[Sort](https://cs50.harvard.edu/x/psets/3/sort/)** – A problem about identifying sorting algorithms based on their performance characteristics.
   - Directory: [`sort/`](pset_3/sort)
-
----
 
 ### Week 4 – Memory 🧠
 
@@ -73,15 +65,11 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 - **[Volume](https://cs50.harvard.edu/x/psets/4/volume/)** – A program that modifies the volume of an audio WAV file.
   - File: [`volume/volume.c`](pset_4/volume/volume.c)
 
----
-
 ### Week 5 – Data Structures 📚
 
 ---
 
 ... 
-
----
 
 ### Week 6 – Python 🐍
 
@@ -98,8 +86,6 @@ This repository contains my personal solutions to Harvard University's [CS50: In
   - **[Mario (more)](https://cs50.harvard.edu/x/psets/6/mario/more/)**: [`sentimental-mario-more/mario.py`](pset_6/sentimental-mario-more/mario.py)
   - **[Readability](https://cs50.harvard.edu/x/psets/6/readability/)**: [`sentimental-readability/readability.py`](pset_6/sentimental-readability/readability.py)
 
----
-
 ### Week 7 – SQL 🔎
 
 ---
@@ -111,8 +97,6 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 - **[Songs](https://cs50.harvard.edu/x/psets/7/songs/)** – A set of SQL queries on a database of the top 100 streamed songs on Spotify in 2018.
   - Directory: [`songs/`](pset_7/songs/)
 
----
-
 ### Week 8 – HTML, CSS, JavaScript 🌐
 
 ---
@@ -122,23 +106,17 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 - **[Trivia](https://cs50.harvard.edu/x/psets/8/trivia/)** – ...
   - Directory: [`trivia/`](pset_8/trivia/)
 
----
-
 ### Week 9 – Flask 🌐
 
 ---
 
 ... 
 
----
-
 ### Week 10 – The End
 
 ---
 
 ...
-
----
 
 ## Progress
 
