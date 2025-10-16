@@ -136,7 +136,7 @@ This repository contains my personal solutions to Harvard University's [CS50: In
 
 ## License
 
-Copyright (c) 2025 Adam Cieśla
+Copyright &#169; 2025 Adam Cieśla
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
