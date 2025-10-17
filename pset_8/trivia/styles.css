@@ -8,6 +8,10 @@ body {
     text-align: left;
 }
 
+.question-block {
+    margin-bottom: 2rem;
+}
+
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -50,6 +54,9 @@ button, input[type="submit"] {
     vertical-align: middle;
 }
 
+button:disabled, input:disabled {
+    color: white !important;
+}
 
 input[type="text"] {
     line-height: 1.8;
